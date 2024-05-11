@@ -1,0 +1,36 @@
+/* CSS untuk tema putih dan biru */
+body {
+    background-color: #f0f8ff; /* Warna latar belakang biru muda */
+    color: #333; /* Warna teks */
+}
+
+.container {
+    background-color: #fff; /* Warna latar belakang putih untuk container */
+    padding: 20px;
+    border-radius: 5px; /* Membuat sudut container menjadi melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk container */
+}
+
+h2 {
+    color: #007bff; /* Warna teks biru untuk judul */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna tombol utama biru */
+    border-color: #007bff; /* Warna border tombol biru */
+    color: #fff; /* Warna teks tombol putih */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna tombol biru saat dihover */
+    border-color: #0056b3; /* Warna border tombol biru saat dihover */
+}
+
+.alert {
+    margin-top: 15px;
+    border-radius: 5px; /* Membuat sudut alert menjadi melengkung */
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <!-- Mengimpor Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('gambar/ct.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: black;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            color: #ffffff;
+        }
+
+        .navbar-brand img {
+            width: 75px;
+            height: 75px;
+        }
+
+        .navbar-toggler-icon {
+            color: #007BFF;
+        }
+
+        .nav-link {
+            color: #007BFF !important;
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+        }
+
+        .timeline-year {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        .photo img {
+            width: 100%;
+            max-width: 270px;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="gambar/7788.png" alt="Logo Saya">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pencarian/index.php">Cek Resi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ongkir/index.html">Cek Ongkir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak/index.php">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login/index.php">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content">
+        <h1 class="text-center mb-4">Sejarah Perusahaan Logistik di Indonesia</h1>
+        <p>Sejarah perusahaan logistik dan ekspedisi barang asli Indonesia mencakup perkembangan industri tersebut di Indonesia dari waktu ke waktu.</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">Prakemerdekaan hingga 1960-an</div>
+                <p>Setelah kemerdekaan Indonesia pada tahun 1945, industri logistik dan ekspedisi barang masih dalam tahap awal. Kegiatan transportasi terutama mengandalkan kereta api, perahu, dan transportasi darat tradisional.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1970-an hingga 1990-an</div>
+                <p>Pada tahun 1970-an, dengan pertumbuhan ekonomi yang pesat, industri logistik dan ekspedisi barang mengalami perkembangan yang signifikan.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2000-an hingga Sekarang</div>
+                <p>Perkembangan teknologi informasi dan internet memengaruhi industri logistik di seluruh dunia, termasuk Indonesia. Banyak perusahaan logistik dan ekspedisi barang mulai mengadopsi teknologi ini untuk mengoptimalkan operasional mereka.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">Tantangan dan Inovasi</div>
+                <p>Industri logistik di Indonesia dihadapkan pada sejumlah tantangan, termasuk lalu lintas yang padat, infrastruktur yang perlu diperbarui, dan tantangan lingkungan. Beberapa perusahaan logistik dan ekspedisi telah berusaha untuk mengatasi tantangan ini dengan mengembangkan armada kendaraan ramah lingkungan dan menggunakan teknologi untuk memantau pengiriman.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container photos">
+        <div class="row">
+            <div class="col-md-3 mx-auto">
+                <div class="photo">
+                    <img src="gambar/1.jpg" alt="Foto 1">
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto">
+                <div class="photo">
+                    <img src="gambar/2.jpg" alt="Foto 2">
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto">
+                <div class="photo">
+                    <img src="gambar/3.jpg" alt="Foto 3" style="width: 270px; height: 255px;">
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto">
+                <div class="photo">
+                    <img src="gambar/5.jpg" alt="Foto 5" style="width: 270px; height: 255px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 Perusahaan Wings
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const yPos = -window.scrollY / 2;
+            document.body.style.backgroundPositionY = `${yPos}px`;
+        });
+    </script>
+
+    <!-- Mengimpor Bootstrap JS dan jQuery untuk responsif dan fitur lainnya -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

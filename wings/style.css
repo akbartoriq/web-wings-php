@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007BFF;
+    color: #ffffff; /* Teks putih */
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Ganti warna teks menu navigasi */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Teks putih */
+}
+
+/* Ganti warna latar belakang footer */
+.footer {
+    background-color: #007BFF;
+    color: #ffffff; /* Teks putih */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.photo {
+    flex: 0 0 23%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}

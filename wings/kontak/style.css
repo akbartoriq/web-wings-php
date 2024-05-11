@@ -1,0 +1,37 @@
+ <style>
+        /* CSS tambahan untuk mengatur tampilan form */
+        body {
+            background-image: url('gambar/ct.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: black;
+        }
+
+        .container {
+            background-color: #ffffff; /* Putih */
+            border: 2px solid #007BFF; /* Biru */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF !important; /* Biru */
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3 !important; /* Biru yang lebih gelap saat dihover */
+        }
+
+        label {
+            color: #007BFF !important; /* Biru */
+        }
+
+        .alert-success {
+            background-color: #d4edda; /* Warna hijau untuk pesan berhasil */
+            border-color: #c3e6cb; /* Warna border yang sesuai */
+            color: #155724; /* Warna teks yang sesuai */
+        }
+    </style>
